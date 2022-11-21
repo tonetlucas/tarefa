@@ -46,7 +46,7 @@ switch (mês) {
             estação = 'undefined'
             break;
     }
-    saida.innerHTML = `<p>olá, você está em ${mês} e por isso estamos no ${estação}`
+    saida.innerHTML = `<p>olá, você está no mês ${mês} e por isso estamos no ${estação}`
 }
 
 let est = document.querySelector('.mostrar');
