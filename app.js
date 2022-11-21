@@ -4,7 +4,7 @@
 
 function estação (){
     //informar a estação do ano usando switch e case
-    let mês = prompt('digite o mês');
+    let mês = prompt('digite o mês em numeros ou extenso');
     let saida = document.querySelector('#saida');
     let estação
 
