@@ -25,13 +25,7 @@ switch (mês) {
         case 'outubro': case 'novembro': case 'dezembro':
              estação = 'primavera'
             break;
-     
-            default:
-                estação = 'undefined'
-            break;
-    }
-
-    switch (mês) {
+    
         case '01': case '02': case '03':
             estação = 'verão'
             break;
