@@ -30,6 +30,28 @@ switch (mês) {
                 estação = 'undefined'
             break;
     }
+
+    switch (mês) {
+        case '01': case '02': case '03':
+            estação = 'verão'
+            break;
+
+            case '04': case '05': case '06':
+            estação = 'outono'
+            break;
+
+            case '07': case '08': case '09':
+            estação = 'inverno'
+            break;
+
+            case '10': case '11': case '12':
+            estação = 'primavera'
+            break;
+
+            default:
+            estação = 'undefined'
+            break;
+    }
     saida.innerHTML = `<p>olá, você está em ${mês} e por isso estamos no ${estação}`
 }
 
