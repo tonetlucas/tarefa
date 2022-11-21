@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+body{
+    font: 12pt Arial;
+    background-color: #232323;
+    color: whitesmoke;
+    text-align: center;
+}
+h1,h2,h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: whitesmoke;
+}
+button{
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding: 17px;
+    border-radius: 12px;
+    border: 1px solid;
+    cursor: pointer;
+    background-color: rgb(221, 235, 20);
+
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
